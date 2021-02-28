@@ -17,7 +17,9 @@
 html {
   background: linear-gradient(rgb(22, 22, 22) 40%, rgba(214, 71, 71, 1) 100%);
 }
-
+body {
+  font-family: "Raleway", sans-serif;
+}
 #main {
   max-width: 1500px;
   margin: 0 auto;
@@ -41,17 +43,11 @@ h2 {
   font-size: 30pt;
 }
 
-h3{
+h3 {
   margin-top: 15%;
   padding: 1%;
   text-align: center;
-  font-size: 20pt;  
-}
-
-p {
-  margin:10% 15% 15% 15%;
-  text-align: center;
-  font-size: 15pt;
+  font-size: 20pt;
 }
 
 img {
@@ -61,35 +57,32 @@ img {
 }
 
 hr {
-  width: 50%;
+  width: 25vh;
   margin: auto;
   border-color: var(--red);
 }
 
 .font-title-bold {
-  font-family: "Raleway";
   font-weight: 600;
   line-height: 0.9em;
   color: var(--grey-bold);
 }
 .font-title-regular {
-  font-family: "Raleway";
   font-weight: 400;
   line-height: 2em;
   color: var(--red);
 }
 
 .font-title-article {
-  font-family: "Raleway";
   font-weight: 400;
   line-height: 2em;
   color: var(--red);
 }
 
 .font-article {
-  font-family: "Raleway";
   font-weight: 400;
   color: var(--black);
+  font-size: 15pt;
 }
 
 .container {
@@ -99,12 +92,18 @@ hr {
   background-color: var(--grey-regular);
 }
 
+.wrapper-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
 /***/
 header img {
   display: block;
   filter: saturate(0%);
-  
 }
 
 header .wrapper-title {
@@ -120,4 +119,19 @@ header .wrapper-title {
   display: none;
 }
 
+main .container1 p {
+  margin: 10% 15% 15% 15%;
+  text-align: center;
+}
 
+main .container2 .wrapper-flex {
+  margin: 10% 0% 15% 0;
+}
+main .container2 .wrapper-flex img {
+  width: 50%;
+}
+
+main .container2 .wrapper-flex p {
+  text-align: left;
+  padding: 0 10% 0 10%;
+}

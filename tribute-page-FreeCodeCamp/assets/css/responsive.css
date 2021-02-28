@@ -19,10 +19,21 @@
   h2 {
     display: none;
   }
-  h3{
-    font-size: 15pt;  
+  h3 {
+    font-size: 15pt;
   }
-  p{
+  .font-article {
     font-size: 10pt;
+  }
+  .wrapper-flex {
+    flex-direction: column;
+    margin: 10% 15% 15% 15%;
+  }
+  main .container2 .wrapper-flex img {
+    width: 100%;
+  }
+  main .container2 .wrapper-flex p {
+    text-align: center;
+    padding: 10% 0 0 0;
   }
 }
