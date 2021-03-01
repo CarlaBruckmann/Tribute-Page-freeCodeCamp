@@ -5,6 +5,8 @@
   --grey-bold: rgba(229, 229, 229, 0.47);
   --grey-regular: rgba(229, 229, 229, 0.96);
   --black: rgba(60, 37, 37, 0.97);
+
+  --border-simple: solid 2px;
 }
 
 * {
@@ -99,6 +101,57 @@ hr {
   align-items: center;
   overflow: hidden;
 }
+.animation-border1 {
+  animation: animation-border1 4s linear infinite;
+}
+@keyframes animation-border1 {
+  0% {
+    border-top: var(--border-simple) var(--grey-regular);
+    border-left: var(--border-simple) var(--grey-regular);
+  }
+  10% {
+    border-top: var(--border-simple) var(--red);
+    border-left: var(--border-simple) var(--red);
+  }
+
+  100% {
+    border-top: var(--border-simple) var(--grey-regular);
+    border-left: var(--border-simple) var(--grey-regular);
+  }
+}
+.animation-border2 {
+  animation: animation-border2 4s linear infinite;
+}
+@keyframes animation-border2 {
+  0% {
+    border-top: var(--border-simple) var(--grey-regular);
+    border-right: var(--border-simple) var(--grey-regular);
+  }
+  10% {
+    border-top: var(--border-simple) var(--red);
+    border-right: var(--border-simple) var(--red);
+  }
+
+  100% {
+    border-top: var(--border-simple) var(--grey-regular);
+    border-right: var(--border-simple) var(--grey-regular);
+  }
+}
+.animation-border3 {
+  animation: animation-border3 4s linear infinite;
+}
+@keyframes animation-border3 {
+  0% {
+    border-right: var(--border-simple) var(--grey-regular);
+  }
+  10% {
+    border-right: var(--border-simple) var(--red);
+  }
+
+  100% {
+    border-right: var(--border-simple) var(--grey-regular);
+  }
+}
 
 /***/
 header img {
@@ -147,6 +200,7 @@ main .container3 .wrapper-grid .grid {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
   grid-gap: 10px;
+  overflow: hidden;
 }
 main .container3 .wrapper-grid .grid .item-1 {
   grid-column-start: 1;
