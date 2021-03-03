@@ -23,6 +23,7 @@
 #img-caption {
   display: none;
 }
+
 html {
   background: linear-gradient(rgb(22, 22, 22) 40%, rgba(214, 71, 71, 1) 100%);
 }
@@ -66,9 +67,10 @@ hr {
   margin: auto;
   border: solid 1px var(--red);
 }
+
 button {
-  background-color: var(--black);
-  border: none;
+  background-color: var(--grey-regular);
+  border: solid 1px var(--red);
   border-radius: 2px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
@@ -89,8 +91,9 @@ button:hover {
   line-height: 2em;
   color: red;
 }
+
 .font-button:hover a {
-  color: var(--black);
+  color: var(--grey-regular);
 }
 
 .font-title-bold {
@@ -268,4 +271,20 @@ main .container3 .wrapper-grid .grid .item-3 {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-size: 20pt;
+}
+
+footer a {
+  padding: 15px;
+  color: var(--grey-bold);
+}
+
+footer a:hover {
+  color: var(--grey-regular);
 }
