@@ -23,7 +23,7 @@
     font-size: 15pt;
   }
   .font-article {
-    font-size: 10pt;
+    font-size: 9pt;
   }
   .wrapper-flex {
     flex-direction: column;
@@ -34,7 +34,7 @@
   }
   main .container2 .wrapper-flex p {
     text-align: center;
-    padding: 10% 0 0 0;
+    padding: 10% 10% 0 10%;
   }
   main .container3 .wrapper-grid .grid {
     display: flex;

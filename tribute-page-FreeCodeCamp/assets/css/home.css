@@ -116,7 +116,7 @@ button:hover {
 .font-article {
   font-weight: 400;
   color: var(--black);
-  font-size: 15pt;
+  font-size: 13pt;
 }
 
 .container {
@@ -207,7 +207,6 @@ button:hover {
   }
 }
 
-/***/
 header img {
   display: block;
   filter: saturate(0%);
@@ -236,7 +235,7 @@ main .container2 .wrapper-flex img {
 
 main .container2 .wrapper-flex p {
   text-align: left;
-  padding: 0 10% 0 10%;
+  padding: 0 10% 0 5%;
 }
 
 main .container3 .wrapper-grid {
