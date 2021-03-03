@@ -25,11 +25,12 @@
 }
 
 html {
-  background: linear-gradient(rgb(22, 22, 22) 40%, rgba(214, 71, 71, 1) 100%);
+  background: rgba(214, 71, 71, 1) 100%;
 }
 
 body {
   font-family: "Raleway", sans-serif;
+  background: linear-gradient(rgb(22, 22, 22) 40%, rgba(214, 71, 71, 1) 100%);
 }
 
 h1,
@@ -116,7 +117,7 @@ button:hover {
 .font-article {
   font-weight: 400;
   color: var(--black);
-  font-size: 13pt;
+  font-size: 12pt;
 }
 
 .container {
@@ -243,7 +244,7 @@ main .container3 .wrapper-grid {
 }
 
 main .container3 .wrapper-grid .grid {
-  margin: 15% 10% 15% 10%;
+  margin: 10%;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 48% 52%;
