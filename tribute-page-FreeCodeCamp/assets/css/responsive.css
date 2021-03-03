@@ -39,16 +39,6 @@
   main .container3 .wrapper-grid .grid {
     display: flex;
     flex-direction: column;
-    grid-gap: 0;
+    grid-gap: 5px;
   }
-  main .container3 .wrapper-grid .grid .item-1 {
-    transform: rotate(0deg);
-  }
-  main .container3 .wrapper-grid .grid .item-2{
-    transform: rotate(0deg);
-  }
-  main .container3 .wrapper-grid .grid .item-3{
-    transform: rotate(0deg);
-  }
-
 }

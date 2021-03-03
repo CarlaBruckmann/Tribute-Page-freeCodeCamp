@@ -5,8 +5,6 @@
   --grey-bold: rgba(229, 229, 229, 0.47);
   --grey-regular: rgba(229, 229, 229, 0.96);
   --black: rgba(60, 37, 37, 0.97);
-
-  --border-simple: solid 3px;
 }
 
 * {
@@ -15,8 +13,6 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
-
 
 #main {
   max-width: 1500px;
@@ -81,12 +77,12 @@ button {
 
 button:hover {
   animation: animation-btn 3s linear infinite;
-  background-color:var(--red);
+  background-color: var(--red);
   box-shadow: 0px 15px 20px rgba(238, 2, 2, 0.486);
   transform: translateY(-7px);
 }
 
-.font-button a{
+.font-button a {
   margin: 0 20px 0 20px;
   font-size: 18pt;
   font-weight: 400;
@@ -120,7 +116,6 @@ button:hover {
   font-size: 15pt;
 }
 
-
 .container {
   width: 50%;
   margin: auto;
@@ -143,65 +138,76 @@ button:hover {
   align-items: center;
 }
 
-/* .animation-border1 {
-  animation: animation-border-top-left 5s linear infinite;
+.animation-border1 {
+  animation: animationBorder1 8s linear infinite;
 }
-@keyframes animation-border-top-left {
+@keyframes animationBorder1 {
   0% {
-    border-top: var(--border-simple) var(--grey-regular);
-    border-left: var(--border-simple) var(--grey-regular);
+    border-top: solid 3px rgba(229, 229, 229, 0.96);
+    border-left: solid 3px rgba(229, 229, 229, 0.96);
   }
   10% {
-    border-top: var(--border-simple) var(--red);
-    border-left: var(--border-simple) var(--red);
+    border-top: solid 3px #fa5252af;
+    border-left: solid 3px #fa5252af;
   }
-
+  50% {
+    border-top: solid 3px #ff0303;
+    border-left: solid 3px #ff0303;
+  }
   100% {
-    border-top: var(--border-simple) var(--grey-regular);
-    border-left: var(--border-simple) var(--grey-regular);
+    border-top: solid 3px rgba(229, 229, 229, 0.96);
+    border-left: solid 3px rgba(229, 229, 229, 0.96);
   }
 }
 
 .animation-border2 {
-  animation: animation-border-top-right 5s linear infinite;
+  animation: animationBorder2 8s linear infinite;
 }
-@keyframes animation-border-top-right {
+@keyframes animationBorder2 {
   0% {
-    border-top: var(--border-simple) var(--grey-regular);
-    border-right: var(--border-simple) var(--grey-regular);
+    border-top: solid 3px rgba(229, 229, 229, 0.96);
+    border-bottom: solid 3px rgba(229, 229, 229, 0.96);
   }
   10% {
-    border-top: var(--border-simple) var(--red);
-    border-right: var(--border-simple) var(--red);
+    border-top: solid 3px #fa5252af;
+    border-bottom: solid 3px #fa5252af;
   }
-
+  50% {
+    border-top: solid 3px #ff0303;
+    border-bottom: solid 3px #ff0303;
+  }
   100% {
-    border-top: var(--border-simple) var(--grey-regular);
-    border-right: var(--border-simple) var(--grey-regular);
+    border-top: solid 3px rgba(229, 229, 229, 0.96);
+    border-bottom: solid 3px rgba(229, 229, 229, 0.96);
   }
 }
 
 .animation-border3 {
-  animation: animation-border-right 5s linear infinite;
+  animation: animationBorder3 8s linear infinite;
 }
-@keyframes animation-border-right {
+@keyframes animationBorder3 {
   0% {
-    border-right: var(--border-simple) var(--grey-regular);
+    border-bottom: solid 3px rgba(229, 229, 229, 0.96);
+    border-right: solid 3px rgba(229, 229, 229, 0.96);
   }
   10% {
-    border-right: var(--border-simple) var(--red);
+    border-bottom: solid 3px #fa5252af;
+    border-right: solid 3px #fa5252af;
   }
-
+  50% {
+    border-bottom: solid 3px #ff0303;
+    border-right: solid 3px #ff0303;
+  }
   100% {
-    border-right: var(--border-simple) var(--grey-regular);
+    border-bottom: solid 3px rgba(229, 229, 229, 0.96);
+    border-right: solid 3px rgba(229, 229, 229, 0.96);
   }
-} */
+}
 
 /***/
 header img {
   display: block;
   filter: saturate(0%);
-
 }
 
 header .wrapper-title {
@@ -238,7 +244,8 @@ main .container3 .wrapper-grid .grid {
   margin: 15% 10% 15% 10%;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 48% 52%;
+  grid-gap: 10px;
 }
 
 main .container3 .wrapper-grid .grid .item-1 {
@@ -247,20 +254,18 @@ main .container3 .wrapper-grid .grid .item-1 {
   grid-row-start: 1;
   grid-row-end: 4;
   align-self: center;
-  transform: rotate(-7deg);
-
 }
+
 main .container3 .wrapper-grid .grid .item-2 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  transform: rotate(2deg);
 }
+
 main .container3 .wrapper-grid .grid .item-3 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  transform: rotate(-2deg);
 }
