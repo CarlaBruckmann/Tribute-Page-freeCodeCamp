@@ -70,7 +70,7 @@ hr {
 }
 mark {
   background-color: var(--red);
-  color: black;
+  color:var(--grey-regular);
 }
 button {
   background-color: var(--grey-regular);
@@ -79,6 +79,7 @@ button {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
+
 }
 
 button:hover {
@@ -88,15 +89,16 @@ button:hover {
   transform: translateY(-7px);
 }
 
-.font-button a {
+button a {
   margin: 0 20px 0 20px;
   font-size: 18pt;
   font-weight: 400;
   line-height: 2em;
+  font-family: "Raleway", sans-serif;
   color: red;
 }
 
-.font-button:hover a {
+button:hover a {
   color: var(--grey-regular);
 }
 
