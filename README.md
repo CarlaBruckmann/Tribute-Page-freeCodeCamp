@@ -18,6 +18,4 @@
 <img src="https://github.com/CarlaBruckmann/tribute-page-FreeCodeCamp/blob/master/preview/home.png" alt="preview home" width="100%"/>
 
 [Tests]
-![Preview](tests.png)
-
 <img src="https://github.com/CarlaBruckmann/tribute-page-FreeCodeCamp/blob/master/preview/tests.png" alt="preview test" width="100%"/>
