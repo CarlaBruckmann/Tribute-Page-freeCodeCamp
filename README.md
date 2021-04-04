@@ -10,24 +10,14 @@
 ### :white_check_mark: Tecnologias utilizadas: `HTML5` e `CSS3`.
 
 
+#### 🌎 *[Tribute Page - Wanda Maximoff](https://bit.ly/31OUN4x)*
+#### 🌎  *[CodePen](https://bit.ly/3el52F7)* - *[freeCodeCamp](https://bit.ly/31P61FW)* 
 
-#### 🌎  *[CodePen](https://codepen.io/carlabruckmann/pen/VwmBrPO)* - *[freeCodeCamp](https://www.freecodecamp.org/carlabruckmann)* 
 
 [Preview - Home]
-![Preview](home.png)
+<img src="https://github.com/CarlaBruckmann/tribute-page-FreeCodeCamp/blob/master/preview/home.png" alt="preview home" width="100%"/>
 
 [Tests]
 ![Preview](tests.png)
 
-[Preview - index.html]
-
-![Preview](preview-index.png)
-
-[Preview - styles.css]
-![Preview](preview-styles.png)
-
-[Preview - home.css]
-![Preview](preview-home.png)
-
-[Preview - responsive.css]
-![Preview](preview-responsive.png)
+<img src="https://github.com/CarlaBruckmann/tribute-page-FreeCodeCamp/blob/master/preview/tests.png" alt="preview test" width="100%"/>
