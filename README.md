@@ -10,8 +10,9 @@
 ### :white_check_mark: Tecnologias utilizadas: `HTML5` e `CSS3`.
 
 
-#### 🌎 *[Tribute Page - Wanda Maximoff](https://bit.ly/31OUN4x)*
-#### 🌎  *[CodePen](https://bit.ly/3el52F7)* - *[freeCodeCamp](https://bit.ly/31P61FW)* 
+ 🌎 *[Tribute Page - Wanda Maximoff](https://bit.ly/31OUN4x)*
+ <br>
+ 🌎  *[CodePen](https://bit.ly/3el52F7)* - *[freeCodeCamp](https://bit.ly/31P61FW)* 
 
 
 [Preview - Home]
